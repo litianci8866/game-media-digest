@@ -1,6 +1,7 @@
 # game-media-digest
 
 > 游戏行业媒体日报 · Claude Code Skill
+
 游戏从业者必装的游戏行媒日报skill！每天要打开好几个公众号和网页看行业快讯？海外行媒不知道看哪些密密麻麻英文头疼？这个skill为你而生！精选了国内和海外10家行业媒体，包括游戏葡萄、游戏陀螺、白鲸出海、Sensor Tower中国、GamesIndustry.biz、Pocket Gamer、Game Developer等一线媒体，使用这个SKILL，可以自定义每日x点为你发送行媒摘要，不错过业界重要更新、精简阅读时间！
 
 A must-have daily digest skill for game industry professionals.
