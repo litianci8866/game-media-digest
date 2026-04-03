@@ -1,6 +1,7 @@
 ---
 name: game-media-digest
-description: 游戏行业媒体日报生成器。每日抓取游戏葡萄、游戏陀螺、手游那点事、游戏新知（国内行业）、白鲸出海、Sensor Tower中国、伽马数据（出海动态）、GamesIndustry.biz、Pocket Gamer、Game Developer（海外行业）的最新文章，整理成三个板块的日报发送到飞书。有内容则推送，无内容则不推送。触发关键词：游戏媒体日报、行业媒体、游戏媒体摘要。
+version: 1.0.2
+description: 游戏从业者必装的游戏行媒日报SKILL！每天要打开好几个网页看行业快讯？对海外行媒不了解，看英文头疼？这个SKILL为你而生！精选了国内和海外10家行业媒体，包括游戏葡萄、游戏陀螺、白鲸出海、Sensor Tower中国、GamesIndustry.biz、Pocket Gamer、Game Developer等一线媒体，使用这个SKILL，可以自定义每日x点为你发送行媒摘要，不错过业界重要更新、精简阅读时间！
 ---
 
 # 游戏行业媒体日报
@@ -93,18 +94,21 @@ WebSearch: 伽马数据 游戏报告 {今日日期}
 WebFetch: https://www.gamesindustry.biz/feed
 ```
 解析 RSS XML，筛选 24 小时内的条目。备用：`WebFetch: https://www.gamesindustry.biz/`
+> RSS URL 如失效，以 references/sources.md 中的配置为准。
 
 **Pocket Gamer**（WebFetch RSS）
 ```
 WebFetch: https://www.pocketgamer.biz/feed/
 ```
 解析 RSS XML，筛选 24 小时内的条目。备用：`WebFetch: https://www.pocketgamer.biz/`
+> RSS URL 如失效，以 references/sources.md 中的配置为准。
 
 **Game Developer**（WebFetch RSS）
 ```
 WebFetch: https://www.gamedeveloper.com/rss.xml
 ```
 解析 RSS XML，筛选 24 小时内的条目。定位：开发者向深度内容，GDC 报道、研发方法论、行业洞察。
+> RSS URL 如失效，以 references/sources.md 中的配置为准。
 
 ### 第三步：内容筛选与提炼
 
@@ -146,3 +150,4 @@ print('发送成功')
 - 也可将发送逻辑封装为本地脚本，在此处调用
 
 所有来源均无 24 小时内内容时，不生成日报，不发送。
+
