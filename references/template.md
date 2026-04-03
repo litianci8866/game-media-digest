@@ -4,7 +4,6 @@
 
 Game Media Digest - {YYYY年MM月DD日}
 
----
 
 ## 整体结构
 
@@ -18,7 +17,7 @@ Game Media Digest - {YYYY年MM月DD日}
 
 ——海外行业动态——
 
-{GamesIndustry.biz、Pocket Gamer、IGN的内容，按媒体分组；标题和要点翻译成中文}
+{GamesIndustry.biz、Pocket Gamer、Game Developer的内容，按媒体分组；标题和要点翻译成中文}
 
 ---
 
@@ -34,7 +33,6 @@ Game Media Digest - {YYYY年MM月DD日}
 
 2. ...（最多3篇）
 
----
 
 ## 格式规范
 
@@ -46,8 +44,8 @@ Game Media Digest - {YYYY年MM月DD日}
 - 三个板块都无内容时，不生成日报
 - 海外媒体文章标题和要点须翻译成中文，原文链接保留英文URL
 
----
 
 ## 结尾固定格式
 
-数据来源：游戏葡萄 / 游戏陀螺 / 手游那点事 / 游戏新知 / 白鲸出海 / Sensor Tower中国 / 伽马数据 / GamesIndustry.biz / Pocket Gamer / IGN
+暂无更新：{列出本次无24小时内内容的媒体，逗号分隔；若所有媒体均有内容则省略此行}
+
